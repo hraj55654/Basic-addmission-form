@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/0bb411cc70.js" crossorigin="anonymous"></script>
+        <title>
+            Submit form
+        </title>
+        <style>
+             #footer{
+                background-color: brown;
+                color: white;
+                margin-top: 70px;
+                padding: 30px;
+                width: 100%;
+            }
+            #lorem{
+                text-align: center;
+            }
+            #copy{
+                text-align: center;
+            }
+            ol{
+                text-decoration: none;
+            }
+            li{
+                text-decoration: none;
+            }
+            #icon-list{
+                list-style: none;
+                padding: 0px;
+                text-align: center;
+                margin: 0px;
+            }
+            #icon-list li{
+                display: inline;
+                margin-right: 3%;
+                font-weight: 100;
+                font-size: 1.2rem;
+            }
+
+        </style>
+    </head>
+    <script src="test.js"></script>
+    <body style="padding: 0px; margin: 0px; background-color: rgb(162, 204, 204);">
+        <!-- <h1>Welcome TO The Geekster Addmission Form</h1> -->
+        <table style="width: 100%; background-color: whitesmoke;">
+            <tr>
+                <th><img src="https://geekster.in/images/logo.svg" alt=""></th>
+                <th><a href="https://geekster.in/">Home</a></th>
+                <th><a href="https://geekster.in/full-stack-web-development-program">Courses</a></th>
+                <th><a href="https://geekster.in/employer">Hire Geekster</a></th>
+                <th><a href="https://blog.geekster.in/">Blog</a></th>
+                <th><a href="https://geekster.in/contact-us">Contact Us</a></th>
+                <th><button type="button" style="border-radius: 10px;">ApplY Now</button></th>
+            </tr>
+        </table>
+        <hr style="margin-top: 1%;"> 
+
+        <h1 style="text-align: center;margin-top: 2%;"><span style="color: green;">Application</span> &nbsp;Form</h1>
+
+        <form class="pure-form">  
+            <fieldset style="text-align: center;">  
+               <legend>User personal information</legend>  
+               <label>Enter your full name</label><br>  
+               <input type="text" name="name" placeholder="Name" id="name" required><br>  
+                <label>Enter your email</label><br>  
+                <input type="email" name="email" placeholder="Email" id="email" required><br> 
+                <label>Mobile Number</label><br>
+                <input type="number" name="phone" placeholder="Mobile number" id="phone" required><br> 
+                <label>Enter your password</label><br>  
+                <input type="password" name="pass" placeholder="pass" id="pass" required><br>  
+                <label>confirm your password</label><br>  
+                <input type="password" name="pass" placeholder="pass" id="pass" required><br>  
+                <br><label>Enter your gender</label><br>  
+                <input type="radio" id="gender" name="gender" value="male"/>Male  <br>  
+                <input type="radio" id="gender" name="gender" value="female"/>Female <br/>    
+                <input type="radio" id="gender" name="gender" value="others"/>others <br/>  
+                <label>Enter your courses</label><br>
+                <select name="courses" id="courses" form="coursesform">
+                    <option value="Mern">MERN</option>
+                    <option value="mean">MEAN</option>
+                    <option value="Java">JAVA full-stack-web-development-program</option>
+                    <option value="fullstack">full-stack-web-development-program</option>
+                  </select><br>
+                  <label>Year Of Completion</label><br>
+                  <select name="final" id="final" form="fianl">
+                    <option value="Mern">2021</option>
+                    <option value="mean">2020</option>
+                    <option value="Java">2019</option>
+                    <option value="fullstack">2018</option>
+                  </select>
+                 <br>Enter your Address:<br>  
+                <textarea></textarea><br>  
+                <input type="submit" value="sign-up" style="width: 10%;">  
+            </fieldset>  
+         </form> 
+
+         
+         
+         <div id="footer">
+            <div >
+                <ul id="icon-list">
+                    <li>
+                        <i class="fab fa-facebook-square"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-twitter-square"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-instagram-square"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-linkedin"></i>
+                    </li>
+                </ul>
+                
+            </div>
+            <div id="lorem">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam minima voluptatibus reprehenderit culpa aliquid et error magni officiis rerum sint ipsa repellendus natus beatae quas maiores vel, deserunt veritatis dolores?</p>
+
+            </div>
+            <div id="copy">
+                <h4>copyright &copy; are Reserved ALL Rights</h4>
+                <h4>Himanshu Raj</h4>
+            </div>
+
+        </div>
+
+         
+
+
+
+    </body>
+</html>
